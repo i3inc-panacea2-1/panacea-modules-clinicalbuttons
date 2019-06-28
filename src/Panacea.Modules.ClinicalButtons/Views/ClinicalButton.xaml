@@ -8,7 +8,9 @@
     xmlns:pcontrols="clr-namespace:Panacea.Controls;assembly=Panacea.Controls"
     d:DesignHeight="450"
     d:DesignWidth="800"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Panel.ZIndex="900"
+    DockPanel.Dock="Right">
     <pcontrols:ImageButton
         Command="{Binding OpenCommand}"
         Image="{Binding ImgUrl}"
